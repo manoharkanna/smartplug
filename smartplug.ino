@@ -1,15 +1,15 @@
 // Blynk Configuration
 #define BLYNK_TEMPLATE_ID "TMPL3N1hrANIp"
 #define BLYNK_TEMPLATE_NAME "SMART PLUG"
-#define BLYNK_AUTH_TOKEN "lAeL7yREjfEWJjfFgXrtpH240_x4fTOd"
+#define BLYNK_AUTH_TOKEN "auth_token"
 
 // Include Libraries
 #include <WiFi.h>
 #include <BlynkSimpleEsp32.h>
 
 // WiFi credentials
-char ssid[] = "Samsung";         // Replace with your WiFi SSID
-char pass[] = "mani1234";  // Replace with your WiFi Password
+char ssid[] = "ssid";         // Replace with your WiFi SSID
+char pass[] = "password";  // Replace with your WiFi Password
 
 // Relay Pin Configuration
 const int relayPin = 25; // GPIO pin connected to the relay
